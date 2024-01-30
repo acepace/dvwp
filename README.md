@@ -23,7 +23,6 @@ $ docker-compose down
 `docker exec -ti dvwp-wordpress-1 /bin/bash`
 
 ## Interface Loopback IP
-
 * [http://127.0.0.1:31337](http://127.0.0.1:31337)
 * [http://127.0.0.1:31337/wp-login.php](http://127.0.0.1:31337/wp-login.php)
 * [http://127.0.0.1:31338/phpmyadmin/](http://127.0.0.1:31338/phpmyadmin/)
@@ -32,8 +31,7 @@ $ docker-compose down
 * [http://localhost:31337/wp-login.php](http://localhost:31337/wp-login.php)
 * [http://localhost:31338/phpmyadmin/](http://localhost:31338/phpmyadmin/)
 
-* ## OR Interface PRIVATE IP
-
+## OR Interface PRIVATE IP
 * [http://YOUR-PRIVATE-IP:31337](http://YOUR-PRIVATE-IP:31337)
 * [http://YOUR-PRIVATE-IP:31337/wp-login.php](http://YOUR-PRIVATE-IP:31337/wp-login.php)
 * [http://YOUR-PRIVATE-IP:31338/phpmyadmin/](http://YOUR-PRIVATE-IP:31338/phpmyadmin/)
