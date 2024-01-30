@@ -22,17 +22,21 @@ $ docker-compose down
 ## Shell
 `docker exec -ti dvwp_wordpress_1 /bin/bash`
 
-## Interface LOCAL
+## Interface Loopback IP
 
 * [http://127.0.0.1:31337](http://127.0.0.1:31337)
 * [http://127.0.0.1:31337/wp-login.php](http://127.0.0.1:31337/wp-login.php)
 * [http://127.0.0.1:31338/phpmyadmin/](http://127.0.0.1:31338/phpmyadmin/)
+## OR localhost
+* [http://localhost:31337](http://localhost:31337)
+* [http://localhost:31337/wp-login.php](http://localhost:31337/wp-login.php)
+* [http://localhost:31338/phpmyadmin/](http://localhost:31338/phpmyadmin/)
 
-* ## Interface SYSTEM IP
+* ## OR Interface PRIVATE IP
 
-* [http://YOUR-SYSTEM-IP:31337](http://127.0.0.1:31337)
-* [http://YOUR-SYSTEM-IP:31337/wp-login.php](http://127.0.0.1:31337/wp-login.php)
-* [http://YOUR-SYSTEM-IP:31338/phpmyadmin/](http://127.0.0.1:31338/phpmyadmin/)
+* [http://YOUR-PRIVATE-IP:31337](http://YOUR-PRIVATE-IP:31337)
+* [http://YOUR-PRIVATE-IP:31337/wp-login.php](http://YOUR-PRIVATE-IP:31337/wp-login.php)
+* [http://YOUR-PRIVATE-IP:31338/phpmyadmin/](http://YOUR-PRIVATE-IP:31338/phpmyadmin/)
 
 ## Credentials
 * Wordpress: admin/admin
