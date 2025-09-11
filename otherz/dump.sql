@@ -5,7 +5,7 @@
 -- Server version	5.7.26-0ubuntu0.18.04.1
 
 LOCK TABLES `wp_posts` WRITE;
-UPDATE `wp_posts` SET `post_content` = '<!-- wp:paragraph -->\r\n<p>Welcome to Damn Vulnerable WordPress. This is your first post. Edit or delete it, then start writing!</p>\r\n<!-- /wp:paragraph -->', `post_title` = 'Hack Me If You Can', `post_name` = 'hack-me-if-you-can' WHERE `wp_posts`.`ID` = 1;
+UPDATE `wp_posts` SET `post_content` = '<!-- wp:paragraph -->\r\n<p>Welcome to Tenzai WordPress. This is your first post. Edit or delete it, then start writing!</p>\r\n<!-- /wp:paragraph -->', `post_title` = 'Demo setup of WP for Tenzai purposes', `post_name` = 'demo-for-tenzai' WHERE `wp_posts`.`ID` = 1;
 UNLOCK TABLES;
 
 LOCK TABLES `wp_users` WRITE;
