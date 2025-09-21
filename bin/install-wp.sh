@@ -21,4 +21,4 @@ wp plugin activate wp-file-upload
 
 # Update DB
 wp db import dump.sql
-
+wp import --authors=skip page_upload.wxr
